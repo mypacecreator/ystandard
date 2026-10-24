@@ -409,7 +409,7 @@ class Footer {
 		// モバイルフッター余白.
 		$padding_top = Option::get_option( 'ys_mobile_footer__padding_top', '' );
 		if ( '' !== $padding_top ) {
-			$padding_top = empty( $padding_top ) ? 0 : "{$padding_top}px";
+			$padding_top = empty( $padding_top ) ? '0px' : "{$padding_top}px";
 			$padding_top = Enqueue_Utility::get_css_var(
 				'ystd--mobile-footer--padding-top',
 				$padding_top
@@ -421,7 +421,7 @@ class Footer {
 		}
 		$padding_bottom = Option::get_option( 'ys_mobile_footer__padding_bottom', '' );
 		if ( '' !== $padding_bottom ) {
-			$padding_bottom = empty( $padding_bottom ) ? 0 : "{$padding_bottom}px";
+			$padding_bottom = empty( $padding_bottom ) ? '0px' : "{$padding_bottom}px";
 			$padding_bottom = Enqueue_Utility::get_css_var(
 				'ystd--mobile-footer--padding-bottom',
 				$padding_bottom
@@ -433,7 +433,7 @@ class Footer {
 		}
 		$padding_left = Option::get_option( 'ys_mobile_footer__padding_left', '' );
 		if ( '' !== $padding_left ) {
-			$padding_left = empty( $padding_left ) ? 0 : "{$padding_left}px";
+			$padding_left = empty( $padding_left ) ? '0px' : "{$padding_left}px";
 			$padding_left = Enqueue_Utility::get_css_var(
 				'ystd--mobile-footer--padding-left',
 				$padding_left
@@ -445,7 +445,7 @@ class Footer {
 		}
 		$padding_right = Option::get_option( 'ys_mobile_footer__padding_right', '' );
 		if ( '' !== $padding_right ) {
-			$padding_right = empty( $padding_right ) ? 0 : "{$padding_right}px";
+			$padding_right = empty( $padding_right ) ? '0px' : "{$padding_right}px";
 			$padding_right = Enqueue_Utility::get_css_var(
 				'ystd--mobile-footer--padding-right',
 				$padding_right
